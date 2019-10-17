@@ -1,46 +1,40 @@
-
--- Observação; os dados estão sendo inseridos aqui, no entanto é importante lembrar
--- que o current_timestamp diferencia conforme o time zone, sendo assim é importante
--- inserir os dados pela aplicação ou setar o time zone correto.
-
 -- Tamanhos
 insert into tamanho (nome, valor, tempo_minuto, data_criacao)
 values
-('Pequena', 20, 15, current_timestamp);
+('PEQUENA', 20, 15, TO_TIMESTAMP('2019-10-17 00:21:20','YYYY-MM-DD HH24:MI:SS'));
 
 insert into tamanho (nome, valor, tempo_minuto, data_criacao)
 values
-('Média', 30, 20, current_timestamp);
+('MEDIA', 30, 20, TO_TIMESTAMP('2019-10-17 00:21:20','YYYY-MM-DD HH24:MI:SS'));
 
 insert into tamanho (nome, valor, tempo_minuto, data_criacao)
 values
-('Grande', 40, 25, current_timestamp);
+('GRANDE', 40, 25, TO_TIMESTAMP('2019-10-17 00:21:20','YYYY-MM-DD HH24:MI:SS'));
 
 
 -- Sabores
 insert into sabor (nome, tempo_minuto, data_criacao)
 values
-('Calabresa', 0, current_timestamp);
+('CALABRESA', 0, TO_TIMESTAMP('2019-10-17 00:21:20','YYYY-MM-DD HH24:MI:SS'));
 
 insert into sabor (nome, tempo_minuto, data_criacao)
 values
-('Marguerita', 0, current_timestamp);
+('MARGUERITA', 0, TO_TIMESTAMP('2019-10-17 00:21:20','YYYY-MM-DD HH24:MI:SS'));
 
 insert into sabor (nome, tempo_minuto, data_criacao)
 values
-('portuguesa', 5, current_timestamp);
+('PORTUGUESA', 5, TO_TIMESTAMP('2019-10-17 00:21:20','YYYY-MM-DD HH24:MI:SS'));
 
 
 -- Adicionais
 insert into adicional (nome, valor, tempo_minuto, data_criacao)
 values
-('Extra bacon', 3, 0, current_timestamp);
+('EXTRA_BACON', 3, 0, TO_TIMESTAMP('2019-10-17 00:21:20','YYYY-MM-DD HH24:MI:SS'));
 
 insert into adicional (nome, valor, tempo_minuto, data_criacao)
 values
-('Sem cebola', 0, 0, current_timestamp);
+('SEM_CEBOLA', 0, 0, TO_TIMESTAMP('2019-10-17 00:21:20','YYYY-MM-DD HH24:MI:SS'));
 
 insert into adicional (nome, valor, tempo_minuto, data_criacao)
 values
-('Borda recheada', 5, 5, current_timestamp);
-
+('BORDA_RECHEADA', 5, 5, TO_TIMESTAMP('2019-10-17 00:21:20','YYYY-MM-DD HH24:MI:SS'));
