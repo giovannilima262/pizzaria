@@ -6,7 +6,7 @@ Em seguida os scripts de inserção
 com\uds\sistema\pizzaria\scripts\inserts_iniciais.sql
 
 A estrutura json padrão para consulta de um dado segue o exemplo
-´
+´´´
 {
 	"tamanhoEnum": "PEQUENA",
 	"saborEnum": "PORTUGUESA",
@@ -17,4 +17,4 @@ A estrutura json padrão para consulta de um dado segue o exemplo
 		]
 	
 }
-´
+´´´
